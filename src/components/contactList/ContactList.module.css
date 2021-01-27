@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border: 2px solid #be9e9e;
+}
+
+.button {
+  width: 80px;
+  color: #fff;
+  background-color: #f04c00;
+  border-radius: 4px;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms linear;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 400ms linear;
+}

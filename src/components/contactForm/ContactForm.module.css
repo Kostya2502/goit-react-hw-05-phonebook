@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  width: 400px;
+  border-radius: 2px;
+  border: 2px solid #bbeeab;
+}
+
+.label {
+  display: inline-block;
+  font-size: 20px;
+  color: #171718;
+}
+
+.input {
+  color: #171718;
+  font: inherit;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #bdbdbd;
+  width: 350px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #1df53a;
+  border: 1px solid #bdbdbd;
+  outline: 0;
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}

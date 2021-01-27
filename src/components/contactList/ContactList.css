@@ -1,0 +1,21 @@
+.ContactList-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.ContactList-enter-Active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms linear;
+}
+
+.ContactList-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.ContactList-exit-Active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 400ms linear;
+}
