@@ -4,7 +4,7 @@ import style from './Filter.module.css';
 
 const Filter = ({ value, onChange, contacts }) => {
     return (<>
-        <CSSTransition in={contacts.length > 1} classNames={style} timeout={1000} unmountOnExit>
+        <CSSTransition in={contacts.length > 1 || value.length > 0} classNames={style} timeout={1000} unmountOnExit>
             <label>
                 Find contacts by name:
             <input
